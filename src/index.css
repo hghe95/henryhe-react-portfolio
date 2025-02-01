@@ -1,5 +1,5 @@
 :root {
-    --bg-color: #0c0c0c;
+    --bg-color: #004967;
     --primary-color: #0d0d0d;
     --secondary-color: #fff;
     --text-color: #fff;
@@ -11,7 +11,7 @@
 [data-theme="light"] {
     --bg-color: #ffffff;
     --primary-color: #ffffff;
-    --secondary-color: #000;
+    --secondary-color: #004967;
     --text-color: #000;
     --text-color-2: #000;
     --text-color-3: rgb(204, 0, 0);
@@ -48,7 +48,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Marcellus;
+    font-family: Lato;
 }
 
 a,
@@ -74,7 +74,7 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-.cursor__dot div {
+/*.cursor__dot div {
     z-index: 999999 !important;
 }
 
@@ -85,7 +85,7 @@ code {
 .cursor__dot div:first-child {
     filter: invert(1);
     background-color: var(--overlay-color) !important;
-}
+}*/
 
 .color_pr {
     color: var(--primary-color) !important;

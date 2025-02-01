@@ -18,7 +18,13 @@ const dataabout = {
     title: "Bio",
     aboutme: "Henry He is an emerging web developer who has completed a Fullstack web developer bootcamp through the University of Washington and Trilogies. He graduated from Western Washington University in 2019 with a BA in Geography and a minor in GIS. Currently he is living in his hometown of Seattle, WA. In his free time, Henry enjoys playing ultimate frisbee, volleyball, going on long walks and hikes, and is an avid gamer.",
 };
-const worktimeline = [{
+const worktimeline = [
+    {
+        jobtitle:"Clinical Lab Coordinator",
+        where: "University of Washington Medical Center",
+        date: "2024-Present"
+    },
+    {
         jobtitle: "Anatomic Pathology Lab Technician",
         where: "Harborview Medical Center",
         date: "2024",
@@ -57,48 +63,48 @@ const skills = [{
     },
 ];
 
-//const services = [{
-        //title: "UI & UX Design",
-        //description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    //},
-    //{
-        //title: "Mobile Apps",
-        //description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    //},
-    //{
-        //title: "Wordpress Design",
-        //description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    //},
-//];
+const services = [{
+        title: "UI & UX Design",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    },
+    {
+        title: "Mobile Apps",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    },
+    {
+        title: "Wordpress Design",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    },
+];
 
 const dataportfolio = [{
-        img: <img src="../../assets/SmokeSignal-img.png" alt="Smoke-Signal"/>,
+        img: <img src="../../images/SmokeSignal-img.png" alt="Smoke-Signal"/>,
         description: "Smoke Signal. An app used to map any nearby fire emergencies in the city of Seattle. This was a group project",
         link: "https://jleebootcamp.github.io/smokesignal/",
     },
     {
-        img: <img src="../../assets/Readit-img.png" alt="ReadIt"/>,
+        img: <img src="../../images/Readit-img.png" alt="ReadIt"/>,
         description: "ReadIt. An app used to give personal book reviews.",
         link: "https://sleepy-chamber-71078.herokuapp.com/",
     },
     {
-        img: <img src="../../assets/JATE-img.png" alt="JATE"/>,
+        img: <img src="../../images/JATE-img.png" alt="JATE"/>,
         description: "JATE: Just a Text Editor. A simple in-browser text making app.",
         link: "https://sheltered-harbor-22094.herokuapp.com/",
     },
     {
-        img: <img src="../../assets/BasicUI.png" alt="Password-generator"/>,
-        description: "An app made with HTML, CSS, and Javascript. As the name implies, it randomly creates a password when prompted by the user.",
+        img: <img src="../images/BasicUI.png" alt="Password-generator"/>,
+        description: "Password Generator. An app that randomly creates a password when prompted by the user.",
         link: "https://hghe95.github.io/HW-3/",
     },
     {
-        img: <img src="../../assets/BookSearchEngine.png" alt="book search enginge"/>,
-        description: "A MERN project that uses a Google Books API with a RESTful API that has been refactored to be a GraphQL API built with an Apollo Server.",
+        img: <img src="../../images/BookSearchEngine.png" alt="book search enginge"/>,
+        description: "Book Search Enging. A MERN project that uses a Google Books API with a RESTful API that has been refactored to be a GraphQL API built with an Apollo Server.",
         link: "https://arcane-cove-36980.herokuapp.com/",
     },
     {
-        img: <img src="../../assets/SAU.png" alt="sapien-university"/>,
-        description: "Sapien University is an online platform for skin care industry professionals and anyone that wants to learn more. It is a trusted space where these professionals can come to connect to mentor, teach, and learn. Some key features our website offers is that the instructors are able to post, learn, and sell their video content. It can be as simple as a blog style article to a demonstrational video.",
+        img: <img src="../../images/SAU.png" alt="sapien-university"/>,
+        description: "Sapien University. An online platform for skin care industry professionals and anyone that wants to learn more.",
         link: "https://sau100.herokuapp.com/",
     },
 
